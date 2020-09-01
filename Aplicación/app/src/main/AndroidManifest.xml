@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.healthcarehighbloodpressure">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <uses-feature android:name="android.hardware.location.network" />
+    <uses-feature android:name="android.hardware.location.gps" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/onda"
+        android:label="@string/app_name"
+        android:launchMode="singleTask"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".surveys.survey_alcohol.SurveyAlcohol"></activity>
+        <activity android:name=".surveys.survey_smoking.SurveySmoking" />
+        <activity android:name=".surveys.survey_physical_attributes.SurveyPhysicalAttributes" />
+        <activity android:name=".surveys.survey_medication.SurveyMedication" />
+        <activity android:name=".ManualBloodPressure" />
+        <activity android:name=".surveys.survey_depression.SurveyDepression10" />
+        <activity android:name=".surveys.survey_depression.SurveyDepression9" />
+        <activity android:name=".surveys.survey_depression.SurveyDepression8" />
+        <activity android:name=".surveys.survey_depression.SurveyDepression7" />
+        <activity android:name=".surveys.survey_depression.SurveyDepression6" />
+        <activity android:name=".surveys.survey_depression.SurveyDepression5" />
+        <activity android:name=".surveys.survey_depression.SurveyDepression4" />
+        <activity android:name=".surveys.survey_depression.SurveyDepression3" />
+        <activity android:name=".surveys.survey_depression.SurveyDepression2" />
+        <activity android:name=".surveys.survey_depression.SurveyDepression1" />
+        <activity android:name=".surveys.survey_stress.SurveyStress14" />
+        <activity android:name=".surveys.survey_stress.SurveyStress13" />
+        <activity android:name=".surveys.survey_stress.SurveyStress12" />
+        <activity android:name=".surveys.survey_stress.SurveyStress11" />
+        <activity android:name=".surveys.survey_stress.SurveyStress10" />
+        <activity android:name=".surveys.survey_stress.SurveyStress9" />
+        <activity android:name=".surveys.survey_stress.SurveyStress8" />
+        <activity android:name=".surveys.survey_stress.SurveyStress7" />
+        <activity android:name=".surveys.survey_stress.SurveyStress6" />
+        <activity android:name=".surveys.survey_stress.SurveyStress5" />
+        <activity android:name=".surveys.survey_stress.SurveyStress4" />
+        <activity android:name=".surveys.survey_stress.SurveyStress3" />
+        <activity android:name=".surveys.survey_stress.SurveyStress2" />
+        <activity android:name=".surveys.survey_stress.SurveyStress1" />
+        <activity android:name=".surveys.survey_social.SurveySocial7" />
+        <activity android:name=".surveys.survey_social.SurveySocial6" />
+        <activity android:name=".surveys.survey_social.SurveySocial5" />
+        <activity android:name=".surveys.survey_social.SurveySocial4" />
+        <activity android:name=".surveys.survey_social.SurveySocial3" />
+        <activity android:name=".surveys.survey_social.SurveySocial2" />
+        <activity android:name=".surveys.survey_social.SurveySocial1" />
+        <activity android:name=".surveys.survey_diet.SurveyDiet14" />
+        <activity android:name=".surveys.survey_diet.SurveyDiet13" />
+        <activity android:name=".surveys.survey_diet.SurveyDiet12" />
+        <activity android:name=".surveys.survey_diet.SurveyDiet11" />
+        <activity android:name=".surveys.survey_diet.SurveyDiet10" />
+        <activity android:name=".surveys.survey_diet.SurveyDiet9" />
+        <activity android:name=".surveys.survey_diet.SurveyDiet8" />
+        <activity android:name=".surveys.survey_diet.SurveyDiet7" />
+        <activity android:name=".surveys.survey_diet.SurveyDiet6" />
+        <activity android:name=".surveys.survey_diet.SurveyDiet5" />
+        <activity android:name=".surveys.survey_diet.SurveyDiet4" />
+        <activity android:name=".surveys.survey_diet.SurveyDiet3" />
+        <activity android:name=".surveys.survey_diet.SurveyDiet2" />
+        <activity android:name=".surveys.survey_diet.SurveyDiet1" />
+        <activity android:name=".user_data.LoginDataView" />
+        <activity android:name=".services.Status" />
+        <activity android:name=".GeneralTests" />
+        <activity android:name=".omronDevice.ConnectDevice" />
+        <activity android:name=".omronDevice.ScanDevice" />
+        <activity android:name=".omronDevice.PersonalConfig" />
+        <activity android:name=".user_data.Register" />
+        <activity android:name=".user_data.Login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainSplashScreen" />
+        <activity android:name=".Tests_select" />
+        <activity android:name=".Geo_test" />
+        <activity android:name=".surveys.Survey_select" />
+        <activity android:name=".surveys.survey_physical_state.Survey_physical_state_1" />
+        <activity android:name=".surveys.survey_physical_state.Survey_physical_state_2" />
+        <activity android:name=".surveys.survey_physical_state.Survey_physical_state_3" />
+        <activity android:name=".surveys.survey_physical_state.Survey_physical_state_4" />
+        <activity android:name=".surveys.survey_physical_state.Survey_physical_state_5" />
+        <activity android:name=".surveys.survey_physical_state.Survey_physical_state_6" />
+        <activity android:name=".surveys.survey_physical_state.Survey_physical_state_7" />
+        <activity android:name=".surveys.survey_physical_state.Survey_physical_state_view" />
+
+        <service
+            android:name=".services.LoopNotificationService"
+            android:exported="false" /> <!-- - android:process=":NotificationService" -->
+        <service
+            android:name=".services.HealthGuideService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service
+            android:name=".services.GeoService"
+            android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service
+            android:name=".services.GeoServiceOldVersion"
+            android:exported="false"/>
+        <service
+            android:name=".services.DataService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <receiver
+            android:name=".services.RestartServiceReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

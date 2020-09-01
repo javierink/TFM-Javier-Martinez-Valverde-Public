@@ -1,0 +1,201 @@
+BEST MODELS
+RF:1:RandomForestRegressor(bootstrap=True, criterion='mse', max_depth=None,
+           max_features=17, max_leaf_nodes=None, min_impurity_decrease=0.0,
+           min_impurity_split=None, min_samples_leaf=1,
+           min_samples_split=2, min_weight_fraction_leaf=0.0,
+           n_estimators=187, n_jobs=None, oob_score=False, random_state=42,
+           verbose=0, warm_start=False)
+RF:2:RandomForestRegressor(bootstrap=True, criterion='mse', max_depth=None,
+           max_features=3, max_leaf_nodes=None, min_impurity_decrease=0.0,
+           min_impurity_split=None, min_samples_leaf=1,
+           min_samples_split=2, min_weight_fraction_leaf=0.0,
+           n_estimators=51, n_jobs=None, oob_score=False, random_state=42,
+           verbose=0, warm_start=False)
+RF:3:RandomForestRegressor(bootstrap=True, criterion='mse', max_depth=None,
+           max_features=47, max_leaf_nodes=None, min_impurity_decrease=0.0,
+           min_impurity_split=None, min_samples_leaf=1,
+           min_samples_split=2, min_weight_fraction_leaf=0.0,
+           n_estimators=53, n_jobs=None, oob_score=False, random_state=42,
+           verbose=0, warm_start=False)
+RF:4:RandomForestRegressor(bootstrap=True, criterion='mse', max_depth=None,
+           max_features=3, max_leaf_nodes=None, min_impurity_decrease=0.0,
+           min_impurity_split=None, min_samples_leaf=1,
+           min_samples_split=2, min_weight_fraction_leaf=0.0,
+           n_estimators=51, n_jobs=None, oob_score=False, random_state=42,
+           verbose=0, warm_start=False)
+RF:5:RandomForestRegressor(bootstrap=True, criterion='mse', max_depth=None,
+           max_features=7, max_leaf_nodes=None, min_impurity_decrease=0.0,
+           min_impurity_split=None, min_samples_leaf=1,
+           min_samples_split=2, min_weight_fraction_leaf=0.0,
+           n_estimators=21, n_jobs=None, oob_score=False, random_state=42,
+           verbose=0, warm_start=False)
+RF:6:RandomForestRegressor(bootstrap=True, criterion='mse', max_depth=None,
+           max_features=5, max_leaf_nodes=None, min_impurity_decrease=0.0,
+           min_impurity_split=None, min_samples_leaf=1,
+           min_samples_split=2, min_weight_fraction_leaf=0.0,
+           n_estimators=41, n_jobs=None, oob_score=False, random_state=42,
+           verbose=0, warm_start=False)
+RF:7:RandomForestRegressor(bootstrap=True, criterion='mse', max_depth=None,
+           max_features=39, max_leaf_nodes=None, min_impurity_decrease=0.0,
+           min_impurity_split=None, min_samples_leaf=1,
+           min_samples_split=2, min_weight_fraction_leaf=0.0,
+           n_estimators=198, n_jobs=None, oob_score=False, random_state=42,
+           verbose=0, warm_start=False)
+RF:General:RandomForestRegressor(bootstrap=True, criterion='mse', max_depth=None,
+           max_features=72, max_leaf_nodes=None, min_impurity_decrease=0.0,
+           min_impurity_split=None, min_samples_leaf=1,
+           min_samples_split=2, min_weight_fraction_leaf=0.0,
+           n_estimators=189, n_jobs=None, oob_score=False, random_state=42,
+           verbose=0, warm_start=False)
+DT:1:DecisionTreeRegressor(criterion='mse', max_depth=38, max_features=22,
+           max_leaf_nodes=None, min_impurity_decrease=0.0,
+           min_impurity_split=None, min_samples_leaf=1,
+           min_samples_split=36, min_weight_fraction_leaf=0.0,
+           presort=False, random_state=42, splitter='best')
+DT:2:DecisionTreeRegressor(criterion='mse', max_depth=47, max_features=6,
+           max_leaf_nodes=None, min_impurity_decrease=0.0,
+           min_impurity_split=None, min_samples_leaf=1,
+           min_samples_split=38, min_weight_fraction_leaf=0.0,
+           presort=False, random_state=42, splitter='best')
+DT:3:DecisionTreeRegressor(criterion='mse', max_depth=52, max_features=44,
+           max_leaf_nodes=None, min_impurity_decrease=0.0,
+           min_impurity_split=None, min_samples_leaf=1,
+           min_samples_split=56, min_weight_fraction_leaf=0.0,
+           presort=False, random_state=42, splitter='best')
+DT:4:DecisionTreeRegressor(criterion='mse', max_depth=22, max_features=39,
+           max_leaf_nodes=None, min_impurity_decrease=0.0,
+           min_impurity_split=None, min_samples_leaf=1,
+           min_samples_split=76, min_weight_fraction_leaf=0.0,
+           presort=False, random_state=42, splitter='best')
+DT:5:DecisionTreeRegressor(criterion='mse', max_depth=91, max_features=3,
+           max_leaf_nodes=None, min_impurity_decrease=0.0,
+           min_impurity_split=None, min_samples_leaf=1,
+           min_samples_split=20, min_weight_fraction_leaf=0.0,
+           presort=False, random_state=42, splitter='best')
+DT:6:DecisionTreeRegressor(criterion='mse', max_depth=148, max_features=2,
+           max_leaf_nodes=None, min_impurity_decrease=0.0,
+           min_impurity_split=None, min_samples_leaf=1,
+           min_samples_split=54, min_weight_fraction_leaf=0.0,
+           presort=False, random_state=42, splitter='best')
+DT:7:DecisionTreeRegressor(criterion='mse', max_depth=148, max_features=2,
+           max_leaf_nodes=None, min_impurity_decrease=0.0,
+           min_impurity_split=None, min_samples_leaf=1,
+           min_samples_split=54, min_weight_fraction_leaf=0.0,
+           presort=False, random_state=42, splitter='best')
+DT:General:DecisionTreeRegressor(criterion='mse', max_depth=25, max_features=46,
+           max_leaf_nodes=None, min_impurity_decrease=0.0,
+           min_impurity_split=None, min_samples_leaf=1,
+           min_samples_split=54, min_weight_fraction_leaf=0.0,
+           presort=False, random_state=42, splitter='best')
+SVR_dia:1:SVR(C=1, cache_size=200, coef0=0.0, degree=3, epsilon=0.1, gamma=2027,
+  kernel='linear', max_iter=-1, shrinking=True, tol=0.001, verbose=False)
+SVR_dia:2:SVR(C=1, cache_size=200, coef0=0.0, degree=3, epsilon=0.1, gamma=2027,
+  kernel='linear', max_iter=-1, shrinking=True, tol=0.001, verbose=False)
+SVR_dia:3:SVR(C=1, cache_size=200, coef0=0.0, degree=3, epsilon=0.1, gamma=2027,
+  kernel='linear', max_iter=-1, shrinking=True, tol=0.001, verbose=False)
+SVR_dia:4:SVR(C=1, cache_size=200, coef0=0.0, degree=3, epsilon=0.1, gamma=2027,
+  kernel='linear', max_iter=-1, shrinking=True, tol=0.001, verbose=False)
+SVR_dia:5:SVR(C=1, cache_size=200, coef0=0.0, degree=3, epsilon=0.1, gamma=2027,
+  kernel='linear', max_iter=-1, shrinking=True, tol=0.001, verbose=False)
+SVR_dia:6:SVR(C=1, cache_size=200, coef0=0.0, degree=3, epsilon=0.1, gamma=2027,
+  kernel='linear', max_iter=-1, shrinking=True, tol=0.001, verbose=False)
+SVR_dia:7:SVR(C=1, cache_size=200, coef0=0.0, degree=3, epsilon=0.1, gamma=2027,
+  kernel='linear', max_iter=-1, shrinking=True, tol=0.001, verbose=False)
+SVR_dia:General:SVR(C=1, cache_size=200, coef0=0.0, degree=3, epsilon=0.1, gamma=2027,
+  kernel='linear', max_iter=-1, shrinking=True, tol=0.001, verbose=False)
+SVR_sys:1:SVR(C=1, cache_size=200, coef0=0.0, degree=3, epsilon=0.1, gamma=2027,
+  kernel='linear', max_iter=-1, shrinking=True, tol=0.001, verbose=False)
+SVR_sys:2:SVR(C=1, cache_size=200, coef0=0.0, degree=3, epsilon=0.1, gamma=2027,
+  kernel='linear', max_iter=-1, shrinking=True, tol=0.001, verbose=False)
+SVR_sys:3:SVR(C=15, cache_size=200, coef0=0.0, degree=3, epsilon=0.1, gamma=5191,
+  kernel='linear', max_iter=-1, shrinking=True, tol=0.001, verbose=False)
+SVR_sys:4:SVR(C=1, cache_size=200, coef0=0.0, degree=3, epsilon=0.1, gamma=2027,
+  kernel='linear', max_iter=-1, shrinking=True, tol=0.001, verbose=False)
+SVR_sys:5:SVR(C=1, cache_size=200, coef0=0.0, degree=3, epsilon=0.1, gamma=2027,
+  kernel='linear', max_iter=-1, shrinking=True, tol=0.001, verbose=False)
+SVR_sys:6:SVR(C=1, cache_size=200, coef0=0.0, degree=3, epsilon=0.1, gamma=2027,
+  kernel='linear', max_iter=-1, shrinking=True, tol=0.001, verbose=False)
+SVR_sys:7:SVR(C=1, cache_size=200, coef0=0.0, degree=3, epsilon=0.1, gamma=2027,
+  kernel='linear', max_iter=-1, shrinking=True, tol=0.001, verbose=False)
+SVR_sys:General:SVR(C=1, cache_size=200, coef0=0.0, degree=3, epsilon=0.1, gamma=2027,
+  kernel='linear', max_iter=-1, shrinking=True, tol=0.001, verbose=False)
+BR_dia:General:BayesianRidge(alpha_1=1e-06, alpha_2=1e-06, compute_score=True, copy_X=True,
+       fit_intercept=True, lambda_1=1e-06, lambda_2=1e-06, n_iter=152,
+       normalize=False, tol=0.001, verbose=False)
+BR_dia:General:BayesianRidge(alpha_1=1e-06, alpha_2=1e-06, compute_score=True, copy_X=True,
+       fit_intercept=True, lambda_1=1e-06, lambda_2=1e-06, n_iter=51,
+       normalize=False, tol=0.001, verbose=False)
+BR_dia:General:BayesianRidge(alpha_1=1e-06, alpha_2=1e-06, compute_score=True, copy_X=True,
+       fit_intercept=True, lambda_1=1e-06, lambda_2=1e-06, n_iter=51,
+       normalize=False, tol=0.001, verbose=False)
+BR_dia:General:BayesianRidge(alpha_1=1e-06, alpha_2=1e-06, compute_score=True, copy_X=True,
+       fit_intercept=True, lambda_1=1e-06, lambda_2=1e-06, n_iter=152,
+       normalize=False, tol=0.001, verbose=False)
+BR_dia:General:BayesianRidge(alpha_1=1e-06, alpha_2=1e-06, compute_score=True, copy_X=True,
+       fit_intercept=True, lambda_1=1e-06, lambda_2=1e-06, n_iter=152,
+       normalize=False, tol=0.001, verbose=False)
+BR_dia:General:BayesianRidge(alpha_1=1e-06, alpha_2=1e-06, compute_score=True, copy_X=True,
+       fit_intercept=True, lambda_1=1e-06, lambda_2=1e-06, n_iter=152,
+       normalize=False, tol=0.001, verbose=False)
+BR_dia:General:BayesianRidge(alpha_1=1e-06, alpha_2=1e-06, compute_score=True, copy_X=True,
+       fit_intercept=True, lambda_1=1e-06, lambda_2=1e-06, n_iter=152,
+       normalize=False, tol=0.001, verbose=False)
+BR_dia:General:BayesianRidge(alpha_1=1e-06, alpha_2=1e-06, compute_score=True, copy_X=True,
+       fit_intercept=True, lambda_1=1e-06, lambda_2=1e-06, n_iter=152,
+       normalize=False, tol=0.001, verbose=False)
+BR_sys:General:BayesianRidge(alpha_1=1e-06, alpha_2=1e-06, compute_score=True, copy_X=True,
+       fit_intercept=True, lambda_1=1e-06, lambda_2=1e-06, n_iter=51,
+       normalize=False, tol=0.001, verbose=False)
+BR_sys:General:BayesianRidge(alpha_1=1e-06, alpha_2=1e-06, compute_score=True, copy_X=True,
+       fit_intercept=True, lambda_1=1e-06, lambda_2=1e-06, n_iter=152,
+       normalize=False, tol=0.001, verbose=False)
+BR_sys:General:BayesianRidge(alpha_1=1e-06, alpha_2=1e-06, compute_score=True, copy_X=True,
+       fit_intercept=True, lambda_1=1e-06, lambda_2=1e-06, n_iter=51,
+       normalize=False, tol=0.001, verbose=False)
+BR_sys:General:BayesianRidge(alpha_1=1e-06, alpha_2=1e-06, compute_score=True, copy_X=True,
+       fit_intercept=True, lambda_1=1e-06, lambda_2=1e-06, n_iter=152,
+       normalize=False, tol=0.001, verbose=False)
+BR_sys:General:BayesianRidge(alpha_1=1e-06, alpha_2=1e-06, compute_score=True, copy_X=True,
+       fit_intercept=True, lambda_1=1e-06, lambda_2=1e-06, n_iter=51,
+       normalize=False, tol=0.001, verbose=False)
+BR_sys:General:BayesianRidge(alpha_1=1e-06, alpha_2=1e-06, compute_score=True, copy_X=True,
+       fit_intercept=True, lambda_1=1e-06, lambda_2=1e-06, n_iter=152,
+       normalize=False, tol=0.001, verbose=False)
+BR_sys:General:BayesianRidge(alpha_1=1e-06, alpha_2=1e-06, compute_score=True, copy_X=True,
+       fit_intercept=True, lambda_1=1e-06, lambda_2=1e-06, n_iter=152,
+       normalize=False, tol=0.001, verbose=False)
+BR_sys:General:BayesianRidge(alpha_1=1e-06, alpha_2=1e-06, compute_score=True, copy_X=True,
+       fit_intercept=True, lambda_1=1e-06, lambda_2=1e-06, n_iter=152,
+       normalize=False, tol=0.001, verbose=False)
+LR_dia:1:LinearRegression(copy_X=True, fit_intercept=True, n_jobs=122, normalize=False)
+LR_dia:2:LinearRegression(copy_X=True, fit_intercept=True, n_jobs=122, normalize=False)
+LR_dia:3:LinearRegression(copy_X=True, fit_intercept=True, n_jobs=122, normalize=False)
+LR_dia:4:LinearRegression(copy_X=True, fit_intercept=True, n_jobs=122, normalize=False)
+LR_dia:5:LinearRegression(copy_X=True, fit_intercept=True, n_jobs=122, normalize=False)
+LR_dia:6:LinearRegression(copy_X=True, fit_intercept=True, n_jobs=122, normalize=False)
+LR_dia:7:LinearRegression(copy_X=True, fit_intercept=True, n_jobs=122, normalize=False)
+LR_dia:General:LinearRegression(copy_X=True, fit_intercept=True, n_jobs=122, normalize=False)
+LR_sys:1:LinearRegression(copy_X=True, fit_intercept=True, n_jobs=122, normalize=False)
+LR_sys:2:LinearRegression(copy_X=True, fit_intercept=True, n_jobs=122, normalize=False)
+LR_sys:3:LinearRegression(copy_X=True, fit_intercept=True, n_jobs=122, normalize=False)
+LR_sys:4:LinearRegression(copy_X=True, fit_intercept=True, n_jobs=122, normalize=False)
+LR_sys:5:LinearRegression(copy_X=True, fit_intercept=True, n_jobs=122, normalize=False)
+LR_sys:6:LinearRegression(copy_X=True, fit_intercept=True, n_jobs=122, normalize=False)
+LR_sys:7:LinearRegression(copy_X=True, fit_intercept=True, n_jobs=122, normalize=False)
+LR_sys:General:LinearRegression(copy_X=True, fit_intercept=True, n_jobs=122, normalize=False)
+PR_dia:1:Polynomial grade = 4
+PR_dia:2:Polynomial grade = 3
+PR_dia:3:Polynomial grade = 2
+PR_dia:4:Polynomial grade = 3
+PR_dia:5:Polynomial grade = 3
+PR_dia:6:Polynomial grade = 2
+PR_dia:7:Polynomial grade = 4
+PR_dia:General:Polynomial grade = 4
+PR_sys:1:Polynomial grade = 4
+PR_sys:2:Polynomial grade = 4
+PR_sys:3:Polynomial grade = 2
+PR_sys:4:Polynomial grade = 4
+PR_sys:5:Polynomial grade = 3
+PR_sys:6:Polynomial grade = 2
+PR_sys:7:Polynomial grade = 3
+PR_sys:General:Polynomial grade = 4

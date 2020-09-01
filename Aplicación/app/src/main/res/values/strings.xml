@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">HealthCare: High blood pressure</string>
+    <string name="continue_survey">Continue to next question</string>
+    <string name="error_continue_survey">Fill the fields correctly to continue</string>
+    <string name="finish">Finish</string>
+    <string name="finish_survey">Complete survey</string>
+    <string name="login" translatable="false">Login</string>
+    <string name="survey">Survey</string>
+    <string name="register">Register</string>
+    <string name="user">User data</string>
+    <string name="Register_title">Patient\'s personal data</string>
+    <string name="Register_address">Address</string>
+    <string name="Register_birth_date">Date of birth</string>
+    <string name="Register_birth_country">Country of birth</string>
+    <string name="Register_city">City</string>
+    <string name="user_data_email">Email</string>
+    <string name="Register_lastname">Last name</string>
+    <string name="Register_listGender">Male,Female,Other</string>
+    <string name="Register_name">Name</string>
+    <string name="Register_postal">Zip code</string>
+    <string name="Register_región">Region</string>
+    <string name="Register_residence_country">Country of residence:</string>
+    <string name="Register_gender">Sex:</string>
+    <string name="survey_physical_state_1_TextView">1. During the last 7 days, on how many days did you do vigorous physical activities?</string>
+    <string name="survey_physical_state_1_TxtImagenHint">Days per week</string>
+    <string name="survey_physical_state_2_TextView">2. How much time did you usually spend doing vigorous physical activities on one of those days?</string>
+    <string name="survey_physical_state_2_TxtImagenHint1">Hours per day</string>
+    <string name="survey_physical_state_2_TxtImagenHint2">Minutes per day</string>
+    <string name="survey_physical_state_3_TextView1">3. During the last 7 days, on how many days did you do moderate physical activities?</string>
+    <string name="survey_physical_state_3_TxtImagenHint">Days per week</string>
+    <string name="survey_physical_state_4_TextView">4. How much time did you usually spend doing moderate physical activities on one of those days?</string>
+    <string name="survey_physical_state_4_TxtImagenHint1">Hours per day</string>
+    <string name="survey_physical_state_4_TxtImagenHint2">Minutes per day</string>
+    <string name="survey_physical_state_5_TextView1">5. During the last 7 days, on how many days did you walk for at least 10 minutes at a time?</string>
+    <string name="survey_physical_state_5_TxtImagenHint">Days per week</string>
+    <string name="survey_physical_state_6_TxtImagenHint1">Hours per day</string>
+    <string name="survey_physical_state_7_TxtImagenHint1">Hours per day</string>
+    <string name="survey_physical_state_7_TxtImagenHint2">Minutes per day</string>
+    <string name="survey_physical_state_6_TxtImagenHint2">Minutes per day</string>
+    <string name="survey_physical_state_7_TextView1">7. During the last 7 days, how much time did you usually spend sitting on a week day?</string>
+    <string name="survey_physical_state_6_TextView">6. How much time did you usually spend walking on one of those days?</string>
+    <string name="survey_refused">Refused</string>
+    <string name="survey_not_sure">Don\'t Know/Not Sure</string>
+    <string name="survey_physical_state_7_TextView2">Now think about the time you spent sitting on week days during the last 7 days. Include time spent at work, at home, while doing course work, and during leisure time. This may include time spent sitting at a desk, visiting friends, reading or sitting or lying down to watch television.</string>
+    <string name="survey_physical_state_5_TextView2">Now think about the time you spent walking in the last 7 days. This includes at work and at home, walking to travel from place to place, and any other walking that you have done solely for recreation, sport, exercise, or leisure.</string>
+    <string name="survey_physical_state_3_TextView2">Now think about activities which take moderate physical effort that you did in the last 7 days. Moderate physical activities make you breathe somewhat harder than normal and may include carrying light loads, bicycling at a regular pace, or doubles tennis. Do not include walking. Again, think about only those physical activities that you did for at least 10 minutes at a time.</string>
+    <string name="user_data_listStudiesLevel">No studies,Primary studies,Secondary studies,Professional training,Bachelor\'s degree,Master\'s degree,Doctoral degree</string>
+    <string name="user_data_studies">Educational level:</string>
+    <string name="error_file_not_found">File not found</string>
+    <string name="general_exit">Exit</string>
+    <string name="survey_physical_state_view">Physical state survey view</string>
+    <string name="two_point" translatable="false">:</string>
+    <string name="geolocation">Geolocation</string>
+    <string name="tests">Tests</string>
+    <string name="api_key_google" translatable="false">NoDisponibleEnVersionPublica/string>
+    <string name="api_key_accuweather" translatable="false">NoDisponibleEnVersionPublica</string>
+    <string name="api_key_openweather" translatable="false">NoDisponibleEnVersionPublica</string>
+    <string name="api_token_waqi" translatable="false">NoDisponibleEnVersionPublica</string>
+    <string name="fileNamePersonalLoginInfo" translatable="false">fileNamePersonalLoginInfo.txt</string>
+    <string name="logout" translatable="false">Logout</string>
+    <string name="user_data_nickname">Nickname</string>
+    <string name="user_data_password">Password</string>
+    <string name="server_error_login_user">Bad user, not register</string>
+    <string name="server_error_login_password">Bad password</string>
+    <string name="ip_server_database" translatable="false">155.54.95.x</string>
+    <string name="port_server_database" translatable="false">8000</string>
+    <string name="server_uri_login_method" translatable="false">/login</string>
+    <string name="server_error">Server error communication</string>
+    <string name="server_regex_username" translatable="false">^[a-z]{2,}\\d*$</string>
+    <string name="server_success_log">Logging success</string>
+    <string name="server_regex_email" translatable="false">^\\w+([-+.\']\\w+)*@\\w+([-.]\\w+)*\\.\\w+([-.]\\w+)*$</string>
+    <string name="server_regex_zp" translatable="false">^[1-9][0-9]*$</string>
+    <string name="user_data_username">Username</string>
+    <string name="user_data_password_repeat">Repeat password</string>
+    <string name="user_data_bad_username">Bad username format</string>
+    <string name="user_data_bad_zp">Bad postal code format</string>
+    <string name="user_data_bad_email">Bad email format</string>
+    <string name="user_data_bad_same_pass">Passwords are not the same</string>
+    <string name="server_uri_register_method" translatable="false">/register</string>
+    <string name="server_regex_exists_user" translatable="false">^(?:The\\suser\\salready\\sexists:\\s)(.*)$</string>
+    <string name="server_error_register_user">The username already exists</string>
+    <string name="server_success_register">User register successful</string>
+    <string name="omron_personal_config_text">First step for wristband connection. In this window the physical information of the user is collected to improve the application of the wristband to be linked.</string>
+    <string name="omron_personal_config_height">Height</string>
+    <string name="omron_personal_config_weight">Weight</string>
+    <string name="omron_personal_config_stride">Stride</string>
+    <string name="omron_personal_config_title">Personal config</string>
+    <string name="general_continue">Continue</string>
+    <string name="omron_connect_title">Connect</string>
+    <string name="omron_connect_text">Third step for the connection of the wristband. In this activity the first connection to the wristband is made and a file transfer can also be made if desired. Once the first connection is made, the device is saved in memory and the transfer and update can be called from the main activity.</string>
+    <string name="omron_scan_title">Scans devices</string>
+    <string name="omron_scan_text">Second step for the connection of the wristband. In this window the available wristbands are scanned near the phone. The application must be given bluetooth permissions. While scanning the wristband it must be in scanable mode. Symbols of a bracelet and a phone must appear on the bracelet screen, not to be confused with the reconnection that has the same symbolism with watches inside. Once detected, it must be selected by clicking on the list where the device appears.</string>
+    <string name="omron_scan_scan">Scan</string>
+    <string name="omron_scan_stop">Stop scan</string>
+    <string name="fileNameJsonDataDevice" translatable="false">fileNameJsonDataDevice.txt</string>
+    <string name="server_uri_device_method" translatable="false">/device</string>
+    <string name="status_title">Services status</string>
+    <string name="status_health_text">"Wristband service: "</string>
+    <string name="status_data_text">"Data service: "</string>
+    <string name="status_device_text">"Wristband connected: "</string>
+    <string name="status_health_button">Launch wristband service</string>
+    <string name="status_data_button">Launch data service</string>
+    <string name="status_check_button">Check services</string>
+    <string name="general_wristband">Wristband</string>
+    <string name="general_status">Status</string>
+    <string name="server_uri_weather_method" translatable="false">/weather</string>
+    <string name="status_geo_text">Geoposition service:</string>
+    <string name="server_uri_surveys_method" translatable="false">/surveys</string>
+    <string name="fileNameJsonDataSurveys" translatable="false">fileNameJsonDataSurveys.txt</string>
+    <string name="server_gender_enumeration" translatable="false">Male,Female,Other</string>
+    <string name="server_study_level_enumeration" translatable="false">No studies,Primary studies,Secondary studies,Professional training,Bachelor\'s degree,Master\'s degree,Doctoral degree</string>
+    <string name="survey_select_physical">Physical status</string>
+    <string name="survey_select_diet">Diet adherence</string>
+    <string name="survey_select_treatment">Treatment adherence</string>
+    <string name="survey_select_social">Social support</string>
+    <string name="survey_select_stress">Stress</string>
+    <string name="survey_select_anxiety">Anxiety</string>
+    <string name="survey_select_depression">Depression</string>
+    <string name="survey_select_title">Choose survey</string>
+    <string name="login_data_view_title">Personal registration data</string>
+    <string name="login_data_view_username">Username:</string>
+    <string name="login_data_view_name">Name:</string>
+    <string name="login_data_view_surname">Surname:</string>
+    <string name="login_data_view_birthdate">Birthdate:</string>
+    <string name="login_data_view_gender">Gender:</string>
+    <string name="login_data_view_birthcountry">Birth country:</string>
+    <string name="login_data_view_region">Region:</string>
+    <string name="login_data_view_city">City:</string>
+    <string name="login_data_view_zp">ZP:</string>
+    <string name="login_data_view_address">Address:</string>
+    <string name="login_data_view_email">Email:</string>
+    <string name="login_data_view_education">Education level:</string>
+    <string name="login_data_view_homecountry">Home country:</string>
+    <string name="notification_text">Running service</string>
+    <string name="notification_title" translatable="false">Health Care High Blood Pressure</string>
+    <string name="survey_yes">Yes</string>
+    <string name="survey_no">No</string>
+    <string name="survey_diet_1_TextView">1. Do you use olive oil as the main fat when cooking?</string>
+    <string name="survey_diet_2_TextView">2. How much olive oil do you consume in total per day (including oil used for frying, when eating out in salads, etc.)?</string>
+    <string name="survey_diet_2_checkbox1">4 spoons or more</string>
+    <string name="survey_diet_2_checkbox2">less than 4 spoons</string>
+    <string name="survey_diet_3_TextView">3. How many portions of vegetables do you eat per day? (garnishes or accompaniments = 1/2 portion) 1 portion = 200g</string>
+    <string name="survey_diet_3_checkbox1">2 or more (at least one in salad or raw vegetables)</string>
+    <string name="survey_diet_3_checkbox2">less than 2 or none in salad</string>
+    <string name="survey_diet_4_TextView">4. How many pieces of fruit (including natural juice) do you consume per day?</string>
+    <string name="survey_diet_4_checkbox1">3 or more per day</string>
+    <string name="survey_diet_4_checkbox2">less than 3 per day</string>
+    <string name="survey_diet_5_TextView">5. How many portions of red meat, hamburgers, sausages or cold cuts do you eat per day? (portion: 100 - 150 g)</string>
+    <string name="survey_diet_5_checkbox1">less than 1 per day</string>
+    <string name="survey_diet_5_checkbox2">1 or more per day</string>
+    <string name="survey_diet_6_TextView">6. How many portions of butter, margarine or cream do you consume per day? (single portion: 12 g)</string>
+    <string name="survey_diet_6_checkbox1">less than 1 per day</string>
+    <string name="survey_diet_6_checkbox2">1 or more per day</string>
+    <string name="survey_diet_7_TextView">7. How many carbonated and/or sweetened drinks (soft drinks, colas, tonic, bitter) do you consume per day?</string>
+    <string name="survey_diet_7_checkbox1">less than 1 per day</string>
+    <string name="survey_diet_7_checkbox2">1 or more per day</string>
+    <string name="survey_diet_8_TextView">8. Do you drink wine? How much wine do you consume per week?</string>
+    <string name="survey_diet_8_checkbox1">7 or more glasses per week</string>
+    <string name="survey_diet_8_checkbox2">less than 7 glasses per week</string>
+    <string name="survey_diet_9_TextView">9. How many portions of vegetables do you eat per week? (150 gr = 1 plate or portion)</string>
+    <string name="survey_diet_9_checkbox1">3 or more per week</string>
+    <string name="survey_diet_9_checkbox2">less than 3 per week</string>
+    <string name="survey_diet_10_TextView">10. How many portions of seafood do you eat per week? ( 100-150gr of fish = 1 portion; 4-5 pieces or 200gr of seafood = 1 portion).</string>
+    <string name="survey_diet_10_checkbox1">3 or more per week</string>
+    <string name="survey_diet_10_checkbox2">less than 3 per week</string>
+    <string name="survey_diet_11_TextView">11. How many times per week do you consume factory/processed baked goods such as cookies, custards, candy or cakes?</string>
+    <string name="survey_diet_11_checkbox1">less than 2 per week</string>
+    <string name="survey_diet_11_checkbox2">2 or more per week</string>
+    <string name="survey_diet_12_TextView">12. How many times per week do you eat nuts? (ration 30 g)</string>
+    <string name="survey_diet_12_checkbox1">3 or more per week</string>
+    <string name="survey_diet_12_checkbox2">less than 3 per week</string>
+    <string name="survey_diet_13_TextView">13. Do you eat chicken, turkey or rabbit instead of beef, pork, hamburgers or sausages? (chicken meat: 1 piece or portion of 100 - 150 g)</string>
+    <string name="survey_diet_14_TextView">14. How many times per week do you consume cooked vegetables, pasta, rice or other dishes seasoned with tomato sauce, garlic, onion or leek cooked in low heat with olive oil (Sauté)?</string>
+    <string name="survey_diet_14_checkbox1">2 or more per week</string>
+    <string name="survey_diet_14_checkbox2">less than 2 per week</string>
+    <string name="survey_social_1_TextView">1. Is there someone avaliable to whom you can count on to listen to you when you need to talk?</string>
+    <string name="survey_social_checkbox1">None of the time</string>
+    <string name="survey_social_checkbox2">A little of the time</string>
+    <string name="survey_social_checkbox3">Some of the time</string>
+    <string name="survey_social_checkbox4">Most of the time</string>
+    <string name="survey_social_checkbox5">All of the time</string>
+    <string name="survey_social_2_TextView">2. Is there someone avaliable to you to give you good advice about a problem?</string>
+    <string name="survey_social_3_TextView">3. Is there someone avaliable to you who shows you love and affection?</string>
+    <string name="survey_social_4_TextView">4. Is there someone avaliable to help with daily chores?</string>
+    <string name="survey_social_5_TextView">5. Can you count on anyone to provide you with emotional support (talking over problems or helping you make a difficult decision)?</string>
+    <string name="survey_social_6_TextView">6. Do you have as much contact as you would like with someone you feel close to, someone in whom you can trust and confide in?</string>
+    <string name="survey_social_7_TextView">7. Are you currently married or living with a partner?</string>
+    <string name="survey_stress_checkbox1">Never</string>
+    <string name="survey_stress_checkbox2">Hardly ever</string>
+    <string name="survey_stress_checkbox3">Occasionally</string>
+    <string name="survey_stress_checkbox4">Often</string>
+    <string name="survey_stress_checkbox5">Very often</string>
+    <string name="survey_stress_1_TextView">1. How often have you been affected by something that has happened unexpectedly?</string>
+    <string name="survey_stress_2_TextView">2. How often have you felt unable to control the important things in your life?</string>
+    <string name="survey_stress_3_TextView">3. How often have you felt nervous or stressed?</string>
+    <string name="survey_stress_4_TextView">4. How often have you successfully managed life\'s small irritating problems?</string>
+    <string name="survey_stress_5_TextView">5. How often have you felt that you have effectively dealt with the major changes that have been occurring in your life?</string>
+    <string name="survey_stress_6_TextView">6. How often have you been confident about your ability to manage your personal problems?</string>
+    <string name="survey_stress_7_TextView">7. How often have you felt that things are going well for you?</string>
+    <string name="survey_stress_8_TextView">8. How often have you felt that you could not cope with all the tasks you had to do?</string>
+    <string name="survey_stress_9_TextView">9. How often have you been able to manage the difficulties in your life?</string>
+    <string name="survey_stress_10_TextView">10. How often have you felt that you had everything under control?</string>
+    <string name="survey_stress_11_TextView">11. How often have you been angry because things that have happened to you were out of your control?</string>
+    <string name="survey_stress_12_TextView">12. How often have you thought about the things you still have to do?</string>
+    <string name="survey_stress_13_TextView">13. How often have you been able to control how you spend your time?</string>
+    <string name="survey_stress_14_TextView">14. How often have you felt that your difficulties are accumulating so much that you cannot overcome them?</string>
+    <string name="survey_depression_checkbox1">Rarely or none of the time (less than 1 day)</string>
+    <string name="survey_depression_checkbox2">"Some or a little of the time (1‐2 days) "</string>
+    <string name="survey_depression_checkbox3">"Occasionally or a moderate amount of time (3‐4 days) "</string>
+    <string name="survey_depression_checkbox4">All of the time (5‐7 days)</string>
+    <string name="survey_depression_1_TextView">"1. I was bothered by things that usually don't bother me. "</string>
+    <string name="survey_depression_2_TextView">"2. I had trouble keeping my mind on what I was doing. "</string>
+    <string name="survey_depression_3_TextView">"3. I felt depressed. "</string>
+    <string name="survey_depression_4_TextView">4. I felt that everything I did was an effort.</string>
+    <string name="survey_depression_5_TextView">5. I felt hopeful about the future.</string>
+    <string name="survey_depression_6_TextView">"6. I felt fearful. "</string>
+    <string name="survey_depression_7_TextView">7. My sleep was restless.</string>
+    <string name="survey_depression_8_TextView">"8. I was happy. "</string>
+    <string name="survey_depression_9_TextView">"9. I felt lonely. "</string>
+    <string name="survey_depression_10_TextView">10. I could not \"get going.\"</string>
+    <string name="manual_blood_pressure_tile">Manual blood pressure measurement</string>
+    <string name="manual_blood_pressure_sys">Systolic pressure</string>
+    <string name="manual_blood_pressure_dia">Diastolic pressure</string>
+    <string name="manual_blood_pressure_steps">Steps</string>
+    <string name="manual_blood_pressure_pulse">Pulse</string>
+    <string name="general_manual">Manual measurement</string>
+    <string name="medication_non_opioid_analgesics">Paracetamol:(Dolocatil, Efferalgan, Gelocatil, Termalgin, Apiretal, Frenadol, Profferalgan, Perfalgan);Ibuprofeno:(Espidifen, Nurofen, Neobrufen, Dalsy);Naproxeno:(Antalgin);Dexketoprofeno:(Enantyum, Enangel);Ácido acetil salicílico:(Aspirina, Couldina, Adiro, Tromalyt);Metamizol:(Nolotil)</string>
+    <string name="medication_opioid_analgesics">Morfina;Fentanil:(Fentanest);Tramadol:(Adolonta, Zaldiar, Zytram)</string>
+    <string name="medication_title">Occasional Medication</string>
+    <string name="medication_anti_anginoses">Nitroglicerina:(Solinitrina, Cafinitrina, Vernies);Verapamilo:(Manidón);Nifedipino:(Adalat, Dilcor, Pertensal);Porpanolol:(Sumial);Atenolol:(Tenormin);Labetalol:(Normodyne, Trandate)</string>
+    <string name="medication_subtitle_non_opioid_analgesics">Non opioid analgesics</string>
+    <string name="medication_subtitle_opioid_analgesics">Opioid analgesics</string>
+    <string name="medication_subtitle_anti_anginoses">Anti-anginoses</string>
+    <string name="medication_subtitle_anti_arrhythmics">Anti-arrhythmics</string>
+    <string name="medication_subtitle_diabetes">Diabetes</string>
+    <string name="medication_subtitle_antithrombotics">Antithrombotics</string>
+    <string name="medication_subtitle_psychotropics">Psychotropics</string>
+    <string name="medication_subtitle_antihistamines">Antihistamines</string>
+    <string name="medication_anti_arrhythmics">Amiodarona:(Trangorex, Ortacrome);Lidocaina:(Lidocaina);Adenosina:(Adenocor);Digoxina:(Lanacordín);Sulfato de magnesio:(Sulmetín)</string>
+    <string name="medication_diabetes">Insulina:(Humalog, Humulin);Glucagón:(Glucagen)</string>
+    <string name="medication_antithrombotics">Acenocumarol:(Sintrom)</string>
+    <string name="medication_psychotropics">Alprazolam:(Trankimazin);Midazolam:(Dormicum);Diazepam:(Valium);Lorazepam:(Orfidal);Lormetazepam:(Noctamid);Clorazepato dipotásico:(Tranxilium);Sertralina:(Sertralina Davur);Zolpidem</string>
+    <string name="medication_antihistamines">Dimenhidrinato:(Biodramina, Cinfamar);Doxilamina:(Dormidina);Difenhidramina:(Benadryl, Soñodor);Dimenhidrinato:(Biodramina, Cinfamar);Hidroxicina:(Atarax);Cetirizina:(Alercina, Coulergin, Reactine, Stopcold Virlix)</string>
+    <string name="survey_select_occas_med">Occasional medication</string>
+    <string name="survey_select_chro_med">Chronic medication</string>
+    <string name="survey_physical_attributes_title">Physical Attributes</string>
+    <string name="survey_smoking_title">Smoking habits</string>
+    <string name="survey_smoking_text_cigarettes">Cigarettes</string>
+    <string name="survey_smoking_unit">Unit(s)</string>
+    <string name="survey_smoking_text_electronic">Electronic cigarettes</string>
+    <string name="survey_smoking_text_other">Other</string>
+    <string name="survey_physical_attributes_cm" translatable="false">cm</string>
+    <string name="survey_physical_attributes_weight">Weight</string>
+    <string name="survey_physical_attributes_height">Height</string>
+    <string name="survey_alcohol_title">Alcohol</string>
+    <string name="survey_alcohol_wine_mix">A mixture with wine</string>
+    <string name="survey_alcohol_wine">Wine</string>
+    <string name="survey_alcohol_beer">Beer</string>
+    <string name="survey_alcohol_distilled_beverage">Distilled beverage</string>
+    <string name="survey_alcohol_distilled_beverage_mix">A mixture with distilled beverage</string>
+    <string name="survey_alcohol_unit">Unit(s)</string>
+    <string name="survey_alcohol_other_fermented_beverages">Other fermented beverages</string>
+    <string name="survey_alcohol_other">Other</string>
+    <string name="survey_select_subtitle_occasional">Occasional</string>
+    <string name="survey_select_subtitle_periodicals">Periodicals</string>
+    <string name="survey_select_subtitle_unique_rare">Unique/Rare</string>
+    <string name="survey_select_physical_attributes">Physical attributes</string>
+    <string name="survey_select_smoke">Smoking habits</string>
+    <string name="survey_select_alcohol">Alcohol</string>
+    <string name="survey_physical_attributes_kg" translatable="false">kg</string>
+    <string name="method_server_database" translatable="false">https://</string>
+    <string name="medication_hypertension">Lercanidipino:(ZANIDIP)</string>
+    <string name="medication_subtitle_hypertension">Hypertension</string>
+    <string name="survey_diet_8_checkbox3">None</string>
+    <string name="survey_diet_5_checkbox3">None</string>
+    <string name="survey_diet_10_checkbox3">None</string>
+    <string name="survey_diet_13_checkbox3">I do not eat meat</string>
+</resources>
+
+
+
